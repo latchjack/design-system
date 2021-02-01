@@ -4,9 +4,7 @@ import Button from './Button';
 export default {
   title: 'Button',
   component: Button,
-  // argTypes: {
-  //   backgroundColor: { control: 'color' },
-  // },
+  argTypes: { onClick: { action: 'clicked' } }
 };
 
 const Template = (args) => <Button {...args} />;

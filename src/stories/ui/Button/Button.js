@@ -5,7 +5,12 @@ import styled from 'styled-components';
 
 const StyledButton = styled(Button)`
   background-color: red;
+  color: green;
 `;
+
+const handleClick = () => {
+  console.log('clicked');
+};
 
 /**
  * Primary UI component for user interaction
@@ -17,6 +22,7 @@ const Btn = ({
   <StyledButton
     label={label}
     size={size}
+    onClick={handleClick}
   >
     {label}
   </StyledButton>
@@ -42,10 +48,3 @@ Button.propTypes = {
 };
 
 export default Btn;
-
-// Button.defaultProps = {
-//   backgroundColor: null,
-//   primary: false,
-//   size: 'medium',
-//   onClick: undefined,
-// };
