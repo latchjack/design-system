@@ -10,10 +10,11 @@ export default create({
   appBorderColor: "#000000",
   appBorderRadius: 4,
   // Typography
+  fontBase: '"Open Sans", sans-serif',
   fontCode: "monospace",
   // Text colors
   textColor: "#ffffff",
-  textInverseColor: "black",
+  textInverseColor: "#000000",
   // Toolbar default and active colors
   barTextColor: "#9A9A9A",
   barSelectedColor: "#1dc0e5",
@@ -23,5 +24,5 @@ export default create({
   inputBorder: "#000000",
   inputTextColor: "#ffffff",
   inputBorderRadius: 4,
-  brandTitle: "Latch Storybook",
+  brandTitle: "LatchLabs",
 });
