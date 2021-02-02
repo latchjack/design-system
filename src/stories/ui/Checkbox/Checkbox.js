@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const StyledCheckbox = styled(Checkbox)`
     &.MuiCheckbox-root,
     &.Mui-checked {
-        background-color: blue;
+        // background-color: blue;
         color: green;
     }
 `;
