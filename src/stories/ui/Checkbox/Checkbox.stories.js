@@ -10,5 +10,6 @@ const Template = args => <Checkbox {...args} />;
 
 export const Primary = Template.bind({});
 Primary.args = {
-    checked: true
+    checked: true,
+    disabled: false
 };
