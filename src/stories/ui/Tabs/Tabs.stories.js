@@ -16,4 +16,4 @@ Primary.args = {
         { id: 3, label: 'Tab 3'}
     ],
     disabled: false
-}
+};
