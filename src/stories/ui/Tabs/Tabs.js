@@ -57,11 +57,12 @@ const Tb = ({
     return (
         <div>
         <AppBar position="static">
-            <Tabs value={value}>
+            <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
                 {tabs.map(tab => (
                     <StyledTab 
                         key={tab.id}
                         disabled={tab.disabled}
+                        {...a11yProps(0)}
                         onClick={e => handleChange(e)}
                     >
                         {tab.label}
