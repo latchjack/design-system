@@ -8,21 +8,23 @@ const StyledButton = styled(Button)`
   color: green;
 `;
 
-const handleClick = () => {
-  console.log('clicked');
-};
+// const handleClick = () => {
+//   console.log('clicked');
+// };
 
 /**
  * Primary UI component for user interaction
  */
 const Btn = ({
   label,
-  size
+  size,
+  onClick
 }) => (
   <StyledButton
     label={label}
     size={size}
-    onClick={handleClick}
+    onClick={onClick}
+    // onClick={handleClick}
   >
     {label}
   </StyledButton>
