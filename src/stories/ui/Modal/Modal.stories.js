@@ -17,5 +17,19 @@ Primary.args = {
     ariaLabel: 'simple-modal-title',
     ariaDescribe: 'simple-modal-description',
     modalTitle: 'Text in a modal',
-    modalBodyText: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula.'
+    modalBodyText: 'Duis mollis, est non commodo luctus, nisi erat porttitor ligula.',
+    items: [
+        {
+            id: 0,
+            label: 'One'
+        },
+        {
+            id: 1,
+            label: 'Two'
+        },
+        {
+            id: 3,
+            label: 'Three'
+        }
+    ]
 };
